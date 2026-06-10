@@ -12,6 +12,7 @@
     "images": "node scripts/download-images.mjs",
     "rank": "node scripts/set-ranks.mjs",
     "logos": "node scripts/download-logos.mjs",
+    "teams": "node scripts/generate-teams.mjs",
     "sync": "python scripts/sync_stats.py"
   },
   "devDependencies": {

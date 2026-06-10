@@ -141,6 +141,13 @@ function segClass(active: boolean) {
       >
         Compare ⚔
       </NuxtLink>
+
+      <NuxtLink
+        to="/teams"
+        class="rounded-full border border-white/15 px-5 py-2 text-sm font-medium text-stone-300 transition hover:border-orange-300/50 hover:text-orange-300"
+      >
+        Teams 🏟
+      </NuxtLink>
     </div>
 
     <!-- Era filter -->

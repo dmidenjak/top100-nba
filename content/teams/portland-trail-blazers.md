@@ -1,0 +1,11 @@
+---
+name: "Portland Trail Blazers"
+slug: portland-trail-blazers
+nbaId: 1610612757
+abbr: "POR"
+logo: "/logos/1610612757.svg"
+---
+
+The Portland Trail Blazers (colloquially known as the Blazers) are an American professional basketball team based in Portland, Oregon. The Trail Blazers compete in the National Basketball Association (NBA) as a member of the Northwest Division of the Western Conference. The team played its home games in the Memorial Coliseum before moving to Moda Center in 1995 (called the Rose Garden until 2013). The franchise entered the league as an expansion team in 1970, and has enjoyed a strong following: from 1977 through 1995, the team sold out 814 consecutive home games, the longest such streak in American major professional sports at the time. Since the Seattle SuperSonics relocated to Oklahoma City in 2008, the Trail Blazers remain as the only NBA team based in the Pacific Northwest.
+
+The team has advanced to the NBA Finals three times, winning the NBA championship once in 1977. Their other NBA Finals appearances were in 1990 and 1992. The team has qualified for the playoffs in 37 seasons of their 55-season existence (through the 2024–25 season), including a streak of 21 straight appearances from 1983 through 2003, tied for the second longest streak in NBA history. The Trail Blazers' 37 playoff appearances rank fourth in the NBA only behind the Los Angeles Lakers, Boston Celtics and San Antonio Spurs since the team's inception in 1970. Six Hall of Fame players have played for the Trail Blazers (Lenny Wilkens, Bill Walton, Clyde Drexler, Dražen Petrović, Arvydas Sabonis, and Scottie Pippen). Bill Walton is the franchise's most decorated player; he was the NBA Finals Most Valuable Player in 1977, and the regular season MVP the following year. Four Blazers' rookies (Geoff Petrie, Sidney Wicks, Brandon Roy and Damian Lillard) have won the NBA Rookie of the Year award. Three players have earned the Most Improved Player award: Kevin Duckworth (1988), Zach Randolph (2004), and CJ McCollum (2016). Three Hall of Fame coaches – Lenny Wilkens, Jack Ramsay, and Rick Adelman – have patrolled the sidelines for the Blazers, and two others, Mike Schuler and Mike Dunleavy, have won the NBA Coach of the Year Award with the team.
