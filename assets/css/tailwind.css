@@ -37,6 +37,7 @@
     @apply font-semibold uppercase tracking-wide;
     font-family: 'Oswald', sans-serif;
   }
+
 }
 
 @layer utilities {

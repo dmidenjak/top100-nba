@@ -16,6 +16,30 @@ if (!team.value) {
 const { data: rosters } = await useAsyncData('rosters', () =>
   $fetch<Record<string, { slug: string; from: number; to: number }[]>>('/api/rosters')
 )
+
+// Franchise accolades (titles, playoff appearances, …). Shared key — fetched
+// once for all team pages.
+const { data: allAccolades } = await useAsyncData('team-accolades', () =>
+  $fetch<Record<string, any>>('/api/team-accolades')
+)
+const accolades = computed(() => allAccolades.value?.[String(team.value?.nbaId)] ?? null)
+
+// Retired honorees who are in the Top 100 get a link to their player page.
+// Matched by accent/punctuation-insensitive name (same folding as search).
+function fold(s: string) {
+  return s
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/['’.\-\s]/g, '')
+    .toLowerCase()
+}
+const retired = computed(() => {
+  const byName = new Map(identities.value?.map((p) => [fold(p.name), p.path]))
+  return (accolades.value?.retired ?? []).map((r: any) => ({
+    ...r,
+    path: r.player ? byName.get(fold(r.player)) ?? null : null,
+  }))
+})
 const { data: identities } = await useAsyncData('player-identities', async () => {
   const list = await queryContent('/players').only(['rank', 'name', 'image', '_path']).find()
   return list.map((p) => ({
@@ -83,13 +107,19 @@ useSeoMeta({ title: () => `${team.value?.name} — TOP 100` })
     </header>
 
     <div class="grid gap-8 lg:grid-cols-[1fr_320px]">
-      <!-- The story -->
-      <section>
-        <h2 class="heading mb-3 text-xl text-stone-300">The Story</h2>
-        <div class="prose prose-invert max-w-none">
-          <ContentRenderer :value="team" />
-        </div>
-      </section>
+      <!-- The story + accolades -->
+      <div class="space-y-8">
+        <section>
+          <h2 class="heading mb-3 text-xl text-stone-300">The Story</h2>
+          <div class="prose prose-invert max-w-none">
+            <ContentRenderer :value="team" />
+          </div>
+        </section>
+
+        <TeamAccolades v-if="accolades" :accolades="accolades" />
+
+        <RetiredNumbers v-if="retired.length" :retired="retired" />
+      </div>
 
       <!-- Legends who wore the jersey -->
       <aside v-if="legends.length" class="lg:sticky lg:top-6 lg:self-start">
