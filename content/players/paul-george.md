@@ -4,7 +4,7 @@ name: "Paul George"
 slug: paul-george
 image: "/images/paul-george.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "PG-13"
 team:
 number:
 position:

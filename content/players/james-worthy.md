@@ -4,7 +4,7 @@ name: "James Worthy"
 slug: james-worthy
 image: "/images/james-worthy.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Big Game James"
 team:
 number:
 position:

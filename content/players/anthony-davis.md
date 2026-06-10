@@ -4,7 +4,7 @@ name: "Anthony Davis"
 slug: anthony-davis
 image: "/images/anthony-davis.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Brow"
 team:
 number:
 position:

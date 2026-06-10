@@ -4,7 +4,7 @@ name: "Scottie Pippen"
 slug: scottie-pippen
 image: "/images/scottie-pippen.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Pip"
 team:
 number:
 position:

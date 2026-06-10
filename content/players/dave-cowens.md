@@ -4,7 +4,7 @@ name: "Dave Cowens"
 slug: dave-cowens
 image: "/images/dave-cowens.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Big Red"
 team:
 number:
 position:

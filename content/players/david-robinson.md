@@ -4,7 +4,7 @@ name: "David Robinson"
 slug: david-robinson
 image: "/images/david-robinson.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Admiral"
 team:
 number:
 position:

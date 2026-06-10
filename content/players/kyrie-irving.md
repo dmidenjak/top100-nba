@@ -4,7 +4,7 @@ name: "Kyrie Irving"
 slug: kyrie-irving
 image: "/images/kyrie-irving.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Uncle Drew"
 team:
 number:
 position:

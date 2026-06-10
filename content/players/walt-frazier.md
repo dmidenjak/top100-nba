@@ -4,7 +4,7 @@ name: "Walt Frazier"
 slug: walt-frazier
 image: "/images/walt-frazier.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Clyde"
 team:
 number:
 position:

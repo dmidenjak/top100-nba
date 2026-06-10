@@ -4,7 +4,7 @@ name: "Russell Westbrook"
 slug: russell-westbrook
 image: "/images/russell-westbrook.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Brodie"
 team:
 number:
 position:

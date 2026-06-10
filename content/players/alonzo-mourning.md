@@ -4,7 +4,7 @@ name: "Alonzo Mourning"
 slug: alonzo-mourning
 image: "/images/alonzo-mourning.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Zo"
 team:
 number:
 position:

@@ -4,7 +4,7 @@ name: "Adrian Dantley"
 slug: adrian-dantley
 image: "/images/adrian-dantley.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Teacher"
 team:
 number:
 position:

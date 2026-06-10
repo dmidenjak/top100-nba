@@ -4,7 +4,7 @@ name: "Clyde Drexler"
 slug: clyde-drexler
 image: "/images/clyde-drexler.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Clyde the Glide"
 team:
 number:
 position:

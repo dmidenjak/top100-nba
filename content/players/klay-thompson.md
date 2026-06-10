@@ -4,7 +4,7 @@ name: "Klay Thompson"
 slug: klay-thompson
 image: "/images/klay-thompson.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Game 6 Klay"
 team:
 number:
 position:

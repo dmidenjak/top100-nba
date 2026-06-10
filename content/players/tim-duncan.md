@@ -4,7 +4,7 @@ name: "Tim Duncan"
 slug: tim-duncan
 image: "/images/tim-duncan.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big Fundamental"
 team:
 number:
 position:

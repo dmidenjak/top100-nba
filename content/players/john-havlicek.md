@@ -4,7 +4,7 @@ name: "John Havlicek"
 slug: john-havlicek
 image: "/images/john-havlicek.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Hondo"
 team:
 number:
 position:

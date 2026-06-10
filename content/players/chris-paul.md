@@ -4,7 +4,7 @@ name: "Chris Paul"
 slug: chris-paul
 image: "/images/chris-paul.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "CP3"
 team:
 number:
 position:

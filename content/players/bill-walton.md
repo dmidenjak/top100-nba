@@ -4,7 +4,7 @@ name: "Bill Walton"
 slug: bill-walton
 image: "/images/bill-walton.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big Redhead"
 team:
 number:
 position:

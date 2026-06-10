@@ -4,7 +4,7 @@ name: "Giannis Antetokounmpo"
 slug: giannis-antetokounmpo
 image: "/images/giannis-antetokounmpo.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Greek Freak"
 team:
 number:
 position:

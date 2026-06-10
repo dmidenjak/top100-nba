@@ -4,7 +4,7 @@ name: "Jimmy Butler"
 slug: jimmy-butler
 image: "/images/jimmy-butler.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Jimmy Buckets"
 team:
 number:
 position:

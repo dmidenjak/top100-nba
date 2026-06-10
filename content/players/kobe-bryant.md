@@ -4,7 +4,7 @@ name: "Kobe Bryant"
 slug: kobe-bryant
 image: "/images/kobe-bryant.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Black Mamba"
 team:
 number:
 position:

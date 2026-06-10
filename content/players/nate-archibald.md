@@ -4,7 +4,7 @@ name: "Nate Archibald"
 slug: nate-archibald
 image: "/images/nate-archibald.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Tiny"
 team:
 number:
 position:

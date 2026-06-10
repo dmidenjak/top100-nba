@@ -4,7 +4,7 @@ name: "Elvin Hayes"
 slug: elvin-hayes
 image: "/images/elvin-hayes.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big E"
 team:
 number:
 position:

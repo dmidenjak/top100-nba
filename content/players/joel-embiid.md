@@ -4,7 +4,7 @@ name: "Joel Embiid"
 slug: joel-embiid
 image: "/images/joel-embiid.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Process"
 team:
 number:
 position:

@@ -4,7 +4,7 @@ name: "Dennis Rodman"
 slug: dennis-rodman
 image: "/images/dennis-rodman.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Worm"
 team:
 number:
 position:

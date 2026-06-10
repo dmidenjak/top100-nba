@@ -4,7 +4,7 @@ name: "Kevin Durant"
 slug: kevin-durant
 image: "/images/kevin-durant.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Slim Reaper"
 team:
 number:
 position:

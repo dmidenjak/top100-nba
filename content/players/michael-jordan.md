@@ -4,7 +4,7 @@ name: "Michael Jordan"
 slug: michael-jordan
 image: "/images/michael-jordan.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "His Airness"
 team:
 number:
 position:

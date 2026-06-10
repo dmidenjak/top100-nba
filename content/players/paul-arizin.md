@@ -4,7 +4,7 @@ name: "Paul Arizin"
 slug: paul-arizin
 image: "/images/paul-arizin.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Pitchin' Paul"
 team:
 number:
 position:

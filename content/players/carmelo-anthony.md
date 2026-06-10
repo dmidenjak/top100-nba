@@ -4,7 +4,7 @@ name: "Carmelo Anthony"
 slug: carmelo-anthony
 image: "/images/carmelo-anthony.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Melo"
 team:
 number:
 position:

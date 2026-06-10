@@ -4,7 +4,7 @@ name: "Luka Dončić"
 slug: luka-doncic
 image: "/images/luka-doncic.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Luka Magic"
 team:
 number:
 position:

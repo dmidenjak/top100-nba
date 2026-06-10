@@ -4,7 +4,7 @@ name: "Earl Monroe"
 slug: earl-monroe
 image: "/images/earl-monroe.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Earl the Pearl"
 team:
 number:
 position:

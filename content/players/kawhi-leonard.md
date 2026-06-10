@@ -4,7 +4,7 @@ name: "Kawhi Leonard"
 slug: kawhi-leonard
 image: "/images/kawhi-leonard.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Klaw"
 team:
 number:
 position:

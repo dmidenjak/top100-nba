@@ -4,7 +4,7 @@ name: "Jerry West"
 slug: jerry-west
 image: "/images/jerry-west.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Logo"
 team:
 number:
 position:

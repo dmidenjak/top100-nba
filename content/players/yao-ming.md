@@ -4,7 +4,7 @@ name: "Yao Ming"
 slug: yao-ming
 image: "/images/yao-ming.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Great Wall"
 team:
 number:
 position:

@@ -4,7 +4,7 @@ name: "Allen Iverson"
 slug: allen-iverson
 image: "/images/allen-iverson.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Answer"
 team:
 number:
 position:

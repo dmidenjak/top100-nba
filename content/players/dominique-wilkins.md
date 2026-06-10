@@ -4,7 +4,7 @@ name: "Dominique Wilkins"
 slug: dominique-wilkins
 image: "/images/dominique-wilkins.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Human Highlight Film"
 team:
 number:
 position:

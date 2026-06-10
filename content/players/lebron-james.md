@@ -4,7 +4,7 @@ name: "LeBron James"
 slug: lebron-james
 image: "/images/lebron-james.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The King"
 team:
 number:
 position:

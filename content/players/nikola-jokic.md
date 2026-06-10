@@ -4,7 +4,7 @@ name: "Nikola Jokić"
 slug: nikola-jokic
 image: "/images/nikola-jokic.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Joker"
 team:
 number:
 position:

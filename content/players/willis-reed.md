@@ -4,7 +4,7 @@ name: "Willis Reed"
 slug: willis-reed
 image: "/images/willis-reed.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Captain"
 team:
 number:
 position:

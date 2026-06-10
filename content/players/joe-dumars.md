@@ -4,7 +4,7 @@ name: "Joe Dumars"
 slug: joe-dumars
 image: "/images/joe-dumars.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Joe D"
 team:
 number:
 position:

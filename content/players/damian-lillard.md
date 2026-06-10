@@ -4,7 +4,7 @@ name: "Damian Lillard"
 slug: damian-lillard
 image: "/images/damian-lillard.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Dame Time"
 team:
 number:
 position:

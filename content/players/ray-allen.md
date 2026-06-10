@@ -4,7 +4,7 @@ name: "Ray Allen"
 slug: ray-allen
 image: "/images/ray-allen.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Jesus Shuttlesworth"
 team:
 number:
 position:

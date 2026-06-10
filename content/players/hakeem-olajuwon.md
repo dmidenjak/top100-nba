@@ -4,7 +4,7 @@ name: "Hakeem Olajuwon"
 slug: hakeem-olajuwon
 image: "/images/hakeem-olajuwon.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Dream"
 team:
 number:
 position:

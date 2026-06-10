@@ -4,7 +4,7 @@ name: "Vince Carter"
 slug: vince-carter
 image: "/images/vince-carter.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Vinsanity"
 team:
 number:
 position:

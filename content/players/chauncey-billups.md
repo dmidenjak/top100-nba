@@ -4,7 +4,7 @@ name: "Chauncey Billups"
 slug: chauncey-billups
 image: "/images/chauncey-billups.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Mr. Big Shot"
 team:
 number:
 position:

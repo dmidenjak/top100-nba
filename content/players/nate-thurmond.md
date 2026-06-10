@@ -4,7 +4,7 @@ name: "Nate Thurmond"
 slug: nate-thurmond
 image: "/images/nate-thurmond.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Nate the Great"
 team:
 number:
 position:

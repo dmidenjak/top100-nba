@@ -4,7 +4,7 @@ name: "Paul Pierce"
 slug: paul-pierce
 image: "/images/paul-pierce.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Truth"
 team:
 number:
 position:

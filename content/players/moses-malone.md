@@ -4,7 +4,7 @@ name: "Moses Malone"
 slug: moses-malone
 image: "/images/moses-malone.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Chairman of the Boards"
 team:
 number:
 position:

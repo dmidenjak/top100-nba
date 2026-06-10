@@ -4,7 +4,7 @@ name: "Wilt Chamberlain"
 slug: wilt-chamberlain
 image: "/images/wilt-chamberlain.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big Dipper"
 team:
 number:
 position:

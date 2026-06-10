@@ -4,7 +4,7 @@ name: "Dikembe Mutombo"
 slug: dikembe-mutombo
 image: "/images/dikembe-mutombo.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Mount Mutombo"
 team:
 number:
 position:

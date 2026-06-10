@@ -4,7 +4,7 @@ name: "Kevin McHale"
 slug: kevin-mchale
 image: "/images/kevin-mchale.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Black Hole"
 team:
 number:
 position:

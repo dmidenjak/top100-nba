@@ -4,7 +4,7 @@ name: "George Mikan"
 slug: george-mikan
 image: "/images/george-mikan.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Mr. Basketball"
 team:
 number:
 position:

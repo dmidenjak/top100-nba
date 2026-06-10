@@ -4,7 +4,7 @@ name: "Dwyane Wade"
 slug: dwyane-wade
 image: "/images/dwyane-wade.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Flash"
 team:
 number:
 position:

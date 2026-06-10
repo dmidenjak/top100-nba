@@ -4,7 +4,7 @@ name: "Julius Erving"
 slug: julius-erving
 image: "/images/julius-erving.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Dr. J"
 team:
 number:
 position:

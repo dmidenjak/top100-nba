@@ -4,7 +4,7 @@ name: "Karl Malone"
 slug: karl-malone
 image: "/images/karl-malone.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Mailman"
 team:
 number:
 position:

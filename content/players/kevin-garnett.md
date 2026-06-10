@@ -4,7 +4,7 @@ name: "Kevin Garnett"
 slug: kevin-garnett
 image: "/images/kevin-garnett.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big Ticket"
 team:
 number:
 position:

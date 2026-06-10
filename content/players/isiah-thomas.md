@@ -4,7 +4,7 @@ name: "Isiah Thomas"
 slug: isiah-thomas
 image: "/images/isiah-thomas.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Zeke"
 team:
 number:
 position:

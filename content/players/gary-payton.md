@@ -4,7 +4,7 @@ name: "Gary Payton"
 slug: gary-payton
 image: "/images/gary-payton.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Glove"
 team:
 number:
 position:

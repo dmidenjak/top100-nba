@@ -4,7 +4,7 @@ name: "Kareem Abdul-Jabbar"
 slug: kareem-abdul-jabbar
 image: "/images/kareem-abdul-jabbar.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Cap"
 team:
 number:
 position:

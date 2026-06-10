@@ -4,7 +4,7 @@ name: "Tracy McGrady"
 slug: tracy-mcgrady
 image: "/images/tracy-mcgrady.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "T-Mac"
 team:
 number:
 position:

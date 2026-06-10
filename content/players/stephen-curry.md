@@ -4,7 +4,7 @@ name: "Stephen Curry"
 slug: stephen-curry
 image: "/images/stephen-curry.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Chef Curry"
 team:
 number:
 position:

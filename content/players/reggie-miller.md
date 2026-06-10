@@ -4,7 +4,7 @@ name: "Reggie Miller"
 slug: reggie-miller
 image: "/images/reggie-miller.png"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Miller Time"
 team:
 number:
 position:

@@ -4,7 +4,7 @@ name: "Shaquille O'Neal"
 slug: shaquille-oneal
 image: "/images/shaquille-oneal.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Diesel"
 team:
 number:
 position:

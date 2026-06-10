@@ -4,7 +4,7 @@ name: "James Harden"
 slug: james-harden
 image: "/images/james-harden.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Beard"
 team:
 number:
 position:

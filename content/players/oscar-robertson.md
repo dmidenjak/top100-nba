@@ -4,7 +4,7 @@ name: "Oscar Robertson"
 slug: oscar-robertson
 image: "/images/oscar-robertson.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big O"
 team:
 number:
 position:

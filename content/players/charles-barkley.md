@@ -4,7 +4,7 @@ name: "Charles Barkley"
 slug: charles-barkley
 image: "/images/charles-barkley.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Sir Charles"
 team:
 number:
 position:

@@ -4,7 +4,7 @@ name: "Pete Maravich"
 slug: pete-maravich
 image: "/images/pete-maravich.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Pistol Pete"
 team:
 number:
 position:

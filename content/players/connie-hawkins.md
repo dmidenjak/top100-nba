@@ -4,7 +4,7 @@ name: "Connie Hawkins"
 slug: connie-hawkins
 image: "/images/connie-hawkins.jpeg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Hawk"
 team:
 number:
 position:

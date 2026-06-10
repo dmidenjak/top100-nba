@@ -4,7 +4,7 @@ name: "Dirk Nowitzki"
 slug: dirk-nowitzki
 image: "/images/dirk-nowitzki.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Big German"
 team:
 number:
 position:

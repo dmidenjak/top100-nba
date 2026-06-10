@@ -4,7 +4,7 @@ name: "Robert Parish"
 slug: robert-parish
 image: "/images/robert-parish.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Chief"
 team:
 number:
 position:

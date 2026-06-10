@@ -4,7 +4,7 @@ name: "Ben Wallace"
 slug: ben-wallace
 image: "/images/ben-wallace.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Big Ben"
 team:
 number:
 position:
