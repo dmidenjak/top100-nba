@@ -7,7 +7,11 @@ const { data: teams } = await useAsyncData('team-list', () =>
     .find()
 )
 
-useSeoMeta({ title: 'Teams — TOP 100' })
+useSeoMeta({
+  title: 'Teams — TOP 100',
+  description:
+    'All 30 NBA franchises — championships, retired numbers, and the all-time legends who wore each jersey.',
+})
 </script>
 
 <template>

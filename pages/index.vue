@@ -71,6 +71,12 @@ function onEnter() {
   if (visible.value.length === 1) navigateTo(visible.value[0]._path)
 }
 
+useSeoMeta({
+  title: 'TOP 100 — The greatest NBA players of all time',
+  description:
+    'The definitive ranking of the 100 greatest NBA players — bios, career stats, accolades, era filters, and head-to-head comparisons.',
+})
+
 function pillClass(active: boolean) {
   return active
     ? 'border-orange-500 bg-orange-500 text-stone-950'
@@ -147,6 +153,13 @@ function segClass(active: boolean) {
         class="rounded-full border border-white/15 px-5 py-2 text-sm font-medium text-stone-300 transition hover:border-orange-300/50 hover:text-orange-300"
       >
         Teams 🏟
+      </NuxtLink>
+
+      <NuxtLink
+        to="/records"
+        class="rounded-full border border-white/15 px-5 py-2 text-sm font-medium text-stone-300 transition hover:border-orange-300/50 hover:text-orange-300"
+      >
+        Records 🏅
       </NuxtLink>
     </div>
 

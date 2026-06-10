@@ -68,7 +68,13 @@ const colors = computed(
   () => teamColors[Number(team.value?.nbaId)] ?? { primary: '#f97316', secondary: '#fbbf24' }
 )
 
-useSeoMeta({ title: () => `${team.value?.name} — TOP 100` })
+useSeoMeta({
+  title: () => `${team.value?.name} — TOP 100`,
+  description: () => team.value?.description,
+  ogTitle: () => `${team.value?.name} — franchise history & legends`,
+  ogDescription: () => team.value?.description,
+  ogImage: absUrl(team.value?.logo),
+})
 </script>
 
 <template>
@@ -117,6 +123,11 @@ useSeoMeta({ title: () => `${team.value?.name} — TOP 100` })
         </section>
 
         <TeamAccolades v-if="accolades" :accolades="accolades" />
+
+        <FranchiseLeadersCard
+          v-if="accolades?.leaders && Object.keys(accolades.leaders).length"
+          :leaders="accolades.leaders"
+        />
 
         <RetiredNumbers v-if="retired.length" :retired="retired" />
       </div>

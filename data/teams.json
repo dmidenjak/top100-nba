@@ -57,7 +57,34 @@
         "seasons": "1997-2001",
         "year": 2015
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Dominique Wilkins",
+        "value": 23292,
+        "slug": "dominique-wilkins"
+      },
+      "reb": {
+        "player": "Bob Pettit",
+        "value": 12849,
+        "slug": "bob-pettit"
+      },
+      "ast": {
+        "player": "Trae Young",
+        "value": 4837,
+        "slug": null
+      },
+      "stl": {
+        "player": "Mookie Blaylock",
+        "value": 1321,
+        "slug": null
+      },
+      "blk": {
+        "player": "Tree Rollins",
+        "value": 2283,
+        "slug": null
+      }
+    }
   },
   "1610612738": {
     "founded": 1946,
@@ -243,7 +270,34 @@
         "seasons": "1956-1964",
         "year": 1964
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "John Havlicek",
+        "value": 26395,
+        "slug": "john-havlicek"
+      },
+      "reb": {
+        "player": "Bill Russell",
+        "value": 21620,
+        "slug": "bill-russell"
+      },
+      "ast": {
+        "player": "Bob Cousy",
+        "value": 6945,
+        "slug": "bob-cousy"
+      },
+      "stl": {
+        "player": "Paul Pierce",
+        "value": 1583,
+        "slug": "paul-pierce"
+      },
+      "blk": {
+        "player": "Robert Parish",
+        "value": 1703,
+        "slug": "robert-parish"
+      }
+    }
   },
   "1610612751": {
     "founded": 1976,
@@ -303,7 +357,34 @@
         "seasons": "1982-1989",
         "year": 1999
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Brook Lopez",
+        "value": 10444,
+        "slug": null
+      },
+      "reb": {
+        "player": "Buck Williams",
+        "value": 7576,
+        "slug": null
+      },
+      "ast": {
+        "player": "Jason Kidd",
+        "value": 4620,
+        "slug": "jason-kidd"
+      },
+      "stl": {
+        "player": "Jason Kidd",
+        "value": 950,
+        "slug": "jason-kidd"
+      },
+      "blk": {
+        "player": "Brook Lopez",
+        "value": 972,
+        "slug": null
+      }
+    }
   },
   "1610612766": {
     "founded": 1988,
@@ -328,7 +409,34 @@
         "seasons": "1998-2000",
         "year": 2000
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Kemba Walker",
+        "value": 12009,
+        "slug": null
+      },
+      "reb": {
+        "player": "Emeka Okafor",
+        "value": 3516,
+        "slug": null
+      },
+      "ast": {
+        "player": "Muggsy Bogues",
+        "value": 5557,
+        "slug": null
+      },
+      "stl": {
+        "player": "Muggsy Bogues",
+        "value": 1067,
+        "slug": null
+      },
+      "blk": {
+        "player": "Alonzo Mourning",
+        "value": 684,
+        "slug": "alonzo-mourning"
+      }
+    }
   },
   "1610612741": {
     "founded": 1966,
@@ -395,7 +503,34 @@
         "seasons": "1988-1998",
         "year": 1999
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Michael Jordan",
+        "value": 29277,
+        "slug": "michael-jordan"
+      },
+      "reb": {
+        "player": "Michael Jordan",
+        "value": 5836,
+        "slug": "michael-jordan"
+      },
+      "ast": {
+        "player": "Michael Jordan",
+        "value": 5012,
+        "slug": "michael-jordan"
+      },
+      "stl": {
+        "player": "Michael Jordan",
+        "value": 2306,
+        "slug": "michael-jordan"
+      },
+      "blk": {
+        "player": "Artis Gilmore",
+        "value": 1029,
+        "slug": null
+      }
+    }
   },
   "1610612739": {
     "founded": 1970,
@@ -455,7 +590,34 @@
         "seasons": "1987-1994",
         "year": 1997
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "LeBron James",
+        "value": 23119,
+        "slug": "lebron-james"
+      },
+      "reb": {
+        "player": "LeBron James",
+        "value": 6190,
+        "slug": "lebron-james"
+      },
+      "ast": {
+        "player": "LeBron James",
+        "value": 6228,
+        "slug": "lebron-james"
+      },
+      "stl": {
+        "player": "LeBron James",
+        "value": 1376,
+        "slug": "lebron-james"
+      },
+      "blk": {
+        "player": "Zydrunas Ilgauskas",
+        "value": 1269,
+        "slug": null
+      }
+    }
   },
   "1610612742": {
     "founded": 1980,
@@ -494,7 +656,34 @@
         "seasons": "1999-2019",
         "year": 2022
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Dirk Nowitzki",
+        "value": 31560,
+        "slug": "dirk-nowitzki"
+      },
+      "reb": {
+        "player": "Dirk Nowitzki",
+        "value": 11489,
+        "slug": "dirk-nowitzki"
+      },
+      "ast": {
+        "player": "Derek Harper",
+        "value": 5111,
+        "slug": null
+      },
+      "stl": {
+        "player": "Derek Harper",
+        "value": 1551,
+        "slug": null
+      },
+      "blk": {
+        "player": "Dirk Nowitzki",
+        "value": 1281,
+        "slug": "dirk-nowitzki"
+      }
+    }
   },
   "1610612743": {
     "founded": 1976,
@@ -554,7 +743,34 @@
         "seasons": "1981-1990",
         "year": 2002
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Alex English",
+        "value": 21645,
+        "slug": null
+      },
+      "reb": {
+        "player": "Nikola Joki\u0107",
+        "value": 8977,
+        "slug": "nikola-jokic"
+      },
+      "ast": {
+        "player": "Nikola Joki\u0107",
+        "value": 6080,
+        "slug": "nikola-jokic"
+      },
+      "stl": {
+        "player": "Lafayette Lever",
+        "value": 1167,
+        "slug": null
+      },
+      "blk": {
+        "player": "Dikembe Mutombo",
+        "value": 1486,
+        "slug": "dikembe-mutombo"
+      }
+    }
   },
   "1610612765": {
     "founded": 1948,
@@ -656,7 +872,34 @@
         "seasons": "1980-1992",
         "year": 2008
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Isiah Thomas",
+        "value": 18822,
+        "slug": "isiah-thomas"
+      },
+      "reb": {
+        "player": "Bill Laimbeer",
+        "value": 9430,
+        "slug": null
+      },
+      "ast": {
+        "player": "Isiah Thomas",
+        "value": 9061,
+        "slug": "isiah-thomas"
+      },
+      "stl": {
+        "player": "Isiah Thomas",
+        "value": 1861,
+        "slug": "isiah-thomas"
+      },
+      "blk": {
+        "player": "Ben Wallace",
+        "value": 1486,
+        "slug": "ben-wallace"
+      }
+    }
   },
   "1610612744": {
     "founded": 1946,
@@ -716,7 +959,34 @@
         "seasons": "1964-1974",
         "year": 1978
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Stephen Curry",
+        "value": 26528,
+        "slug": "stephen-curry"
+      },
+      "reb": {
+        "player": "Nate Thurmond",
+        "value": 12771,
+        "slug": "nate-thurmond"
+      },
+      "ast": {
+        "player": "Stephen Curry",
+        "value": 6743,
+        "slug": "stephen-curry"
+      },
+      "stl": {
+        "player": "Stephen Curry",
+        "value": 1602,
+        "slug": "stephen-curry"
+      },
+      "blk": {
+        "player": "Adonal Foyle",
+        "value": 1140,
+        "slug": null
+      }
+    }
   },
   "1610612745": {
     "founded": 1967,
@@ -776,7 +1046,34 @@
         "seasons": "1980-2007",
         "year": 2007
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Hakeem Olajuwon",
+        "value": 26511,
+        "slug": "hakeem-olajuwon"
+      },
+      "reb": {
+        "player": "Hakeem Olajuwon",
+        "value": 13382,
+        "slug": "hakeem-olajuwon"
+      },
+      "ast": {
+        "player": "James Harden",
+        "value": 4796,
+        "slug": "james-harden"
+      },
+      "stl": {
+        "player": "Hakeem Olajuwon",
+        "value": 2088,
+        "slug": "hakeem-olajuwon"
+      },
+      "blk": {
+        "player": "Hakeem Olajuwon",
+        "value": 3740,
+        "slug": "hakeem-olajuwon"
+      }
+    }
   },
   "1610612754": {
     "founded": 1976,
@@ -829,7 +1126,34 @@
         "seasons": "1983-2009",
         "year": 2009
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Reggie Miller",
+        "value": 25279,
+        "slug": "reggie-miller"
+      },
+      "reb": {
+        "player": "Dale Davis",
+        "value": 6006,
+        "slug": null
+      },
+      "ast": {
+        "player": "Reggie Miller",
+        "value": 4141,
+        "slug": "reggie-miller"
+      },
+      "stl": {
+        "player": "Reggie Miller",
+        "value": 1505,
+        "slug": "reggie-miller"
+      },
+      "blk": {
+        "player": "Myles Turner",
+        "value": 1412,
+        "slug": null
+      }
+    }
   },
   "1610612746": {
     "founded": 1970,
@@ -839,7 +1163,34 @@
     "divTitles": 3,
     "confTitles": 0,
     "titles": 0,
-    "retired": []
+    "retired": [],
+    "leaders": {
+      "pts": {
+        "player": "Randy Smith",
+        "value": 12735,
+        "slug": null
+      },
+      "reb": {
+        "player": "DeAndre Jordan",
+        "value": 7988,
+        "slug": null
+      },
+      "ast": {
+        "player": "Chris Paul",
+        "value": 4076,
+        "slug": "chris-paul"
+      },
+      "stl": {
+        "player": "Randy Smith",
+        "value": 1072,
+        "slug": null
+      },
+      "blk": {
+        "player": "DeAndre Jordan",
+        "value": 1276,
+        "slug": null
+      }
+    }
   },
   "1610612747": {
     "founded": 1948,
@@ -934,7 +1285,34 @@
         "seasons": "1962-2002",
         "year": 2002
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Kobe Bryant",
+        "value": 33643,
+        "slug": "kobe-bryant"
+      },
+      "reb": {
+        "player": "Elgin Baylor",
+        "value": 11463,
+        "slug": "elgin-baylor"
+      },
+      "ast": {
+        "player": "Magic Johnson",
+        "value": 10141,
+        "slug": "magic-johnson"
+      },
+      "stl": {
+        "player": "Kobe Bryant",
+        "value": 1944,
+        "slug": "kobe-bryant"
+      },
+      "blk": {
+        "player": "Kareem Abdul-Jabbar",
+        "value": 2694,
+        "slug": "kareem-abdul-jabbar"
+      }
+    }
   },
   "1610612763": {
     "founded": 1995,
@@ -966,7 +1344,34 @@
         "seasons": "2010-2017",
         "year": 2021
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Mike Conley",
+        "value": 11733,
+        "slug": null
+      },
+      "reb": {
+        "player": "Marc Gasol",
+        "value": 5942,
+        "slug": null
+      },
+      "ast": {
+        "player": "Mike Conley",
+        "value": 4509,
+        "slug": null
+      },
+      "stl": {
+        "player": "Mike Conley",
+        "value": 1161,
+        "slug": null
+      },
+      "blk": {
+        "player": "Marc Gasol",
+        "value": 1135,
+        "slug": null
+      }
+    }
   },
   "1610612748": {
     "founded": 1988,
@@ -1019,7 +1424,34 @@
         "seasons": "1996-2002, 2006-2008",
         "year": 2009
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Dwyane Wade",
+        "value": 21556,
+        "slug": "dwyane-wade"
+      },
+      "reb": {
+        "player": "Udonis Haslem",
+        "value": 5791,
+        "slug": null
+      },
+      "ast": {
+        "player": "Dwyane Wade",
+        "value": 5310,
+        "slug": "dwyane-wade"
+      },
+      "stl": {
+        "player": "Dwyane Wade",
+        "value": 1492,
+        "slug": "dwyane-wade"
+      },
+      "blk": {
+        "player": "Alonzo Mourning",
+        "value": 1625,
+        "slug": "alonzo-mourning"
+      }
+    }
   },
   "1610612749": {
     "founded": 1968,
@@ -1093,7 +1525,34 @@
         "seasons": "1970-1975",
         "year": 1993
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Giannis Antetokounmpo",
+        "value": 21531,
+        "slug": "giannis-antetokounmpo"
+      },
+      "reb": {
+        "player": "Giannis Antetokounmpo",
+        "value": 8882,
+        "slug": "giannis-antetokounmpo"
+      },
+      "ast": {
+        "player": "Giannis Antetokounmpo",
+        "value": 4484,
+        "slug": "giannis-antetokounmpo"
+      },
+      "stl": {
+        "player": "Quinn Buckner",
+        "value": 1042,
+        "slug": null
+      },
+      "blk": {
+        "player": "Giannis Antetokounmpo",
+        "value": 1088,
+        "slug": "giannis-antetokounmpo"
+      }
+    }
   },
   "1610612750": {
     "founded": 1989,
@@ -1111,7 +1570,34 @@
         "seasons": "2000",
         "year": 2000
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Kevin Garnett",
+        "value": 19201,
+        "slug": "kevin-garnett"
+      },
+      "reb": {
+        "player": "Kevin Garnett",
+        "value": 10718,
+        "slug": "kevin-garnett"
+      },
+      "ast": {
+        "player": "Kevin Garnett",
+        "value": 4216,
+        "slug": "kevin-garnett"
+      },
+      "stl": {
+        "player": "Kevin Garnett",
+        "value": 1315,
+        "slug": "kevin-garnett"
+      },
+      "blk": {
+        "player": "Kevin Garnett",
+        "value": 1590,
+        "slug": "kevin-garnett"
+      }
+    }
   },
   "1610612740": {
     "founded": 2002,
@@ -1129,7 +1615,34 @@
         "seasons": null,
         "year": 2002
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Anthony Davis",
+        "value": 11059,
+        "slug": "anthony-davis"
+      },
+      "reb": {
+        "player": "Anthony Davis",
+        "value": 4905,
+        "slug": "anthony-davis"
+      },
+      "ast": {
+        "player": "Chris Paul",
+        "value": 4228,
+        "slug": "chris-paul"
+      },
+      "stl": {
+        "player": "Chris Paul",
+        "value": 1010,
+        "slug": "chris-paul"
+      },
+      "blk": {
+        "player": "Anthony Davis",
+        "value": 1121,
+        "slug": "anthony-davis"
+      }
+    }
   },
   "1610612752": {
     "founded": 1946,
@@ -1203,7 +1716,34 @@
         "seasons": "1968-1977, 1979-1982",
         "year": 1990
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Patrick Ewing",
+        "value": 23665,
+        "slug": "patrick-ewing"
+      },
+      "reb": {
+        "player": "Patrick Ewing",
+        "value": 10759,
+        "slug": "patrick-ewing"
+      },
+      "ast": {
+        "player": "Walt Frazier",
+        "value": 4791,
+        "slug": "walt-frazier"
+      },
+      "stl": {
+        "player": "Patrick Ewing",
+        "value": 1061,
+        "slug": "patrick-ewing"
+      },
+      "blk": {
+        "player": "Patrick Ewing",
+        "value": 2758,
+        "slug": "patrick-ewing"
+      }
+    }
   },
   "1610612760": {
     "founded": 1967,
@@ -1270,7 +1810,34 @@
         "seasons": "1968-1992",
         "year": 1993
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Russell Westbrook",
+        "value": 18859,
+        "slug": "russell-westbrook"
+      },
+      "reb": {
+        "player": "Jack Sikma",
+        "value": 7729,
+        "slug": null
+      },
+      "ast": {
+        "player": "Gary Payton",
+        "value": 7384,
+        "slug": "gary-payton"
+      },
+      "stl": {
+        "player": "Gary Payton",
+        "value": 2107,
+        "slug": "gary-payton"
+      },
+      "blk": {
+        "player": "Serge Ibaka",
+        "value": 1300,
+        "slug": null
+      }
+    }
   },
   "1610612753": {
     "founded": 1989,
@@ -1288,7 +1855,34 @@
         "seasons": null,
         "year": 2000
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Dwight Howard",
+        "value": 11435,
+        "slug": null
+      },
+      "reb": {
+        "player": "Dwight Howard",
+        "value": 8072,
+        "slug": null
+      },
+      "ast": {
+        "player": "Jameer Nelson",
+        "value": 3501,
+        "slug": null
+      },
+      "stl": {
+        "player": "Nick Anderson",
+        "value": 1004,
+        "slug": null
+      },
+      "blk": {
+        "player": "Dwight Howard",
+        "value": 1344,
+        "slug": null
+      }
+    }
   },
   "1610612755": {
     "founded": 1949,
@@ -1376,7 +1970,34 @@
         "seasons": "1963-1985",
         "year": 1986
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Hal Greer",
+        "value": 21586,
+        "slug": "hal-greer"
+      },
+      "reb": {
+        "player": "Dolph Schayes",
+        "value": 11256,
+        "slug": "dolph-schayes"
+      },
+      "ast": {
+        "player": "Maurice Cheeks",
+        "value": 6212,
+        "slug": null
+      },
+      "stl": {
+        "player": "Maurice Cheeks",
+        "value": 1942,
+        "slug": null
+      },
+      "blk": {
+        "player": "Julius Erving",
+        "value": 1293,
+        "slug": "julius-erving"
+      }
+    }
   },
   "1610612756": {
     "founded": 1968,
@@ -1478,7 +2099,34 @@
         "seasons": "1968-2000",
         "year": 2001
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Devin Booker",
+        "value": 18120,
+        "slug": null
+      },
+      "reb": {
+        "player": "Alvan Adams",
+        "value": 6937,
+        "slug": null
+      },
+      "ast": {
+        "player": "Steve Nash",
+        "value": 6997,
+        "slug": "steve-nash"
+      },
+      "stl": {
+        "player": "Alvan Adams",
+        "value": 1289,
+        "slug": null
+      },
+      "blk": {
+        "player": "Larry Nance",
+        "value": 940,
+        "slug": null
+      }
+    }
   },
   "1610612757": {
     "founded": 1970,
@@ -1580,7 +2228,34 @@
         "seasons": "1970-1998",
         "year": 2003
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Damian Lillard",
+        "value": 19376,
+        "slug": "damian-lillard"
+      },
+      "reb": {
+        "player": "LaMarcus Aldridge",
+        "value": 5434,
+        "slug": null
+      },
+      "ast": {
+        "player": "Terry Porter",
+        "value": 5319,
+        "slug": null
+      },
+      "stl": {
+        "player": "Clyde Drexler",
+        "value": 1795,
+        "slug": "clyde-drexler"
+      },
+      "blk": {
+        "player": "Mychal Thompson",
+        "value": 768,
+        "slug": null
+      }
+    }
   },
   "1610612758": {
     "founded": 1948,
@@ -1668,7 +2343,34 @@
         "seasons": "1971-1981",
         "year": null
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Oscar Robertson",
+        "value": 22009,
+        "slug": "oscar-robertson"
+      },
+      "reb": {
+        "player": "Sam Lacey",
+        "value": 9353,
+        "slug": null
+      },
+      "ast": {
+        "player": "Oscar Robertson",
+        "value": 7731,
+        "slug": "oscar-robertson"
+      },
+      "stl": {
+        "player": "Sam Lacey",
+        "value": 950,
+        "slug": null
+      },
+      "blk": {
+        "player": "Sam Lacey",
+        "value": 1098,
+        "slug": null
+      }
+    }
   },
   "1610612759": {
     "founded": 1976,
@@ -1749,7 +2451,34 @@
         "seasons": "1990-2003",
         "year": 2003
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Tim Duncan",
+        "value": 26496,
+        "slug": "tim-duncan"
+      },
+      "reb": {
+        "player": "Tim Duncan",
+        "value": 15091,
+        "slug": "tim-duncan"
+      },
+      "ast": {
+        "player": "Tony Parker",
+        "value": 6829,
+        "slug": "tony-parker"
+      },
+      "stl": {
+        "player": "Manu Ginobili",
+        "value": 1392,
+        "slug": "manu-ginobili"
+      },
+      "blk": {
+        "player": "Tim Duncan",
+        "value": 3020,
+        "slug": "tim-duncan"
+      }
+    }
   },
   "1610612761": {
     "founded": 1995,
@@ -1767,7 +2496,34 @@
         "seasons": "1998-2004",
         "year": 2024
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "DeMar DeRozan",
+        "value": 13296,
+        "slug": null
+      },
+      "reb": {
+        "player": "Chris Bosh",
+        "value": 4776,
+        "slug": null
+      },
+      "ast": {
+        "player": "Kyle Lowry",
+        "value": 4277,
+        "slug": null
+      },
+      "stl": {
+        "player": "Kyle Lowry",
+        "value": 873,
+        "slug": null
+      },
+      "blk": {
+        "player": "Chris Bosh",
+        "value": 600,
+        "slug": null
+      }
+    }
   },
   "1610612762": {
     "founded": 1974,
@@ -1855,7 +2611,34 @@
         "seasons": "1975-2009",
         "year": 2010
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Karl Malone",
+        "value": 36374,
+        "slug": "karl-malone"
+      },
+      "reb": {
+        "player": "Karl Malone",
+        "value": 14601,
+        "slug": "karl-malone"
+      },
+      "ast": {
+        "player": "John Stockton",
+        "value": 15806,
+        "slug": "john-stockton"
+      },
+      "stl": {
+        "player": "John Stockton",
+        "value": 3265,
+        "slug": "john-stockton"
+      },
+      "blk": {
+        "player": "Mark Eaton",
+        "value": 3064,
+        "slug": null
+      }
+    }
   },
   "1610612764": {
     "founded": 1961,
@@ -1901,6 +2684,33 @@
         "seasons": "1972-1979",
         "year": 2018
       }
-    ]
+    ],
+    "leaders": {
+      "pts": {
+        "player": "Elvin Hayes",
+        "value": 15551,
+        "slug": "elvin-hayes"
+      },
+      "reb": {
+        "player": "Wes Unseld",
+        "value": 13769,
+        "slug": "wes-unseld"
+      },
+      "ast": {
+        "player": "John Wall",
+        "value": 5282,
+        "slug": null
+      },
+      "stl": {
+        "player": "John Wall",
+        "value": 976,
+        "slug": null
+      },
+      "blk": {
+        "player": "Elvin Hayes",
+        "value": 1558,
+        "slug": "elvin-hayes"
+      }
+    }
   }
 }

@@ -1,0 +1,534 @@
+[
+  {
+    "key": "pts",
+    "label": "Points",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "LeBron James",
+        "value": 43440,
+        "active": true,
+        "slug": "lebron-james"
+      },
+      {
+        "rank": 2,
+        "name": "Kareem Abdul-Jabbar",
+        "value": 38387,
+        "active": false,
+        "slug": "kareem-abdul-jabbar"
+      },
+      {
+        "rank": 3,
+        "name": "Karl Malone",
+        "value": 36928,
+        "active": false,
+        "slug": "karl-malone"
+      },
+      {
+        "rank": 4,
+        "name": "Kobe Bryant",
+        "value": 33643,
+        "active": false,
+        "slug": "kobe-bryant"
+      },
+      {
+        "rank": 5,
+        "name": "Kevin Durant",
+        "value": 32597,
+        "active": true,
+        "slug": "kevin-durant"
+      },
+      {
+        "rank": 6,
+        "name": "Michael Jordan",
+        "value": 32292,
+        "active": false,
+        "slug": "michael-jordan"
+      },
+      {
+        "rank": 7,
+        "name": "Dirk Nowitzki",
+        "value": 31560,
+        "active": false,
+        "slug": "dirk-nowitzki"
+      },
+      {
+        "rank": 8,
+        "name": "Wilt Chamberlain",
+        "value": 31419,
+        "active": false,
+        "slug": "wilt-chamberlain"
+      },
+      {
+        "rank": 9,
+        "name": "James Harden",
+        "value": 29339,
+        "active": true,
+        "slug": "james-harden"
+      },
+      {
+        "rank": 10,
+        "name": "Shaquille O'Neal",
+        "value": 28596,
+        "active": false,
+        "slug": "shaquille-oneal"
+      }
+    ]
+  },
+  {
+    "key": "reb",
+    "label": "Rebounds",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "Wilt Chamberlain",
+        "value": 23924,
+        "active": false,
+        "slug": "wilt-chamberlain"
+      },
+      {
+        "rank": 2,
+        "name": "Bill Russell",
+        "value": 21620,
+        "active": false,
+        "slug": "bill-russell"
+      },
+      {
+        "rank": 3,
+        "name": "Kareem Abdul-Jabbar",
+        "value": 17440,
+        "active": false,
+        "slug": "kareem-abdul-jabbar"
+      },
+      {
+        "rank": 4,
+        "name": "Elvin Hayes",
+        "value": 16279,
+        "active": false,
+        "slug": "elvin-hayes"
+      },
+      {
+        "rank": 5,
+        "name": "Moses Malone",
+        "value": 16212,
+        "active": false,
+        "slug": "moses-malone"
+      },
+      {
+        "rank": 6,
+        "name": "Tim Duncan",
+        "value": 15091,
+        "active": false,
+        "slug": "tim-duncan"
+      },
+      {
+        "rank": 7,
+        "name": "Karl Malone",
+        "value": 14968,
+        "active": false,
+        "slug": "karl-malone"
+      },
+      {
+        "rank": 8,
+        "name": "Robert Parish",
+        "value": 14715,
+        "active": false,
+        "slug": "robert-parish"
+      },
+      {
+        "rank": 9,
+        "name": "Kevin Garnett",
+        "value": 14662,
+        "active": false,
+        "slug": "kevin-garnett"
+      },
+      {
+        "rank": 10,
+        "name": "Dwight Howard",
+        "value": 14627,
+        "active": false,
+        "slug": null
+      }
+    ]
+  },
+  {
+    "key": "ast",
+    "label": "Assists",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "John Stockton",
+        "value": 15806,
+        "active": false,
+        "slug": "john-stockton"
+      },
+      {
+        "rank": 2,
+        "name": "Chris Paul",
+        "value": 12552,
+        "active": true,
+        "slug": "chris-paul"
+      },
+      {
+        "rank": 3,
+        "name": "Jason Kidd",
+        "value": 12091,
+        "active": false,
+        "slug": "jason-kidd"
+      },
+      {
+        "rank": 4,
+        "name": "LeBron James",
+        "value": 12016,
+        "active": true,
+        "slug": "lebron-james"
+      },
+      {
+        "rank": 5,
+        "name": "Russell Westbrook",
+        "value": 10351,
+        "active": true,
+        "slug": "russell-westbrook"
+      },
+      {
+        "rank": 6,
+        "name": "Steve Nash",
+        "value": 10335,
+        "active": false,
+        "slug": "steve-nash"
+      },
+      {
+        "rank": 7,
+        "name": "Mark Jackson",
+        "value": 10334,
+        "active": false,
+        "slug": null
+      },
+      {
+        "rank": 8,
+        "name": "Magic Johnson",
+        "value": 10141,
+        "active": false,
+        "slug": "magic-johnson"
+      },
+      {
+        "rank": 9,
+        "name": "Oscar Robertson",
+        "value": 9887,
+        "active": false,
+        "slug": "oscar-robertson"
+      },
+      {
+        "rank": 10,
+        "name": "Isiah Thomas",
+        "value": 9061,
+        "active": false,
+        "slug": "isiah-thomas"
+      }
+    ]
+  },
+  {
+    "key": "stl",
+    "label": "Steals",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "John Stockton",
+        "value": 3265,
+        "active": false,
+        "slug": "john-stockton"
+      },
+      {
+        "rank": 2,
+        "name": "Chris Paul",
+        "value": 2728,
+        "active": true,
+        "slug": "chris-paul"
+      },
+      {
+        "rank": 3,
+        "name": "Jason Kidd",
+        "value": 2684,
+        "active": false,
+        "slug": "jason-kidd"
+      },
+      {
+        "rank": 4,
+        "name": "Michael Jordan",
+        "value": 2514,
+        "active": false,
+        "slug": "michael-jordan"
+      },
+      {
+        "rank": 5,
+        "name": "Gary Payton",
+        "value": 2445,
+        "active": false,
+        "slug": "gary-payton"
+      },
+      {
+        "rank": 6,
+        "name": "LeBron James",
+        "value": 2417,
+        "active": true,
+        "slug": "lebron-james"
+      },
+      {
+        "rank": 7,
+        "name": "Maurice Cheeks",
+        "value": 2310,
+        "active": false,
+        "slug": null
+      },
+      {
+        "rank": 8,
+        "name": "Scottie Pippen",
+        "value": 2307,
+        "active": false,
+        "slug": "scottie-pippen"
+      },
+      {
+        "rank": 9,
+        "name": "Clyde Drexler",
+        "value": 2207,
+        "active": false,
+        "slug": "clyde-drexler"
+      },
+      {
+        "rank": 10,
+        "name": "Hakeem Olajuwon",
+        "value": 2162,
+        "active": false,
+        "slug": "hakeem-olajuwon"
+      }
+    ]
+  },
+  {
+    "key": "blk",
+    "label": "Blocks",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "Hakeem Olajuwon",
+        "value": 3830,
+        "active": false,
+        "slug": "hakeem-olajuwon"
+      },
+      {
+        "rank": 2,
+        "name": "Dikembe Mutombo",
+        "value": 3289,
+        "active": false,
+        "slug": "dikembe-mutombo"
+      },
+      {
+        "rank": 3,
+        "name": "Kareem Abdul-Jabbar",
+        "value": 3189,
+        "active": false,
+        "slug": "kareem-abdul-jabbar"
+      },
+      {
+        "rank": 4,
+        "name": "Mark Eaton",
+        "value": 3064,
+        "active": false,
+        "slug": null
+      },
+      {
+        "rank": 5,
+        "name": "Tim Duncan",
+        "value": 3020,
+        "active": false,
+        "slug": "tim-duncan"
+      },
+      {
+        "rank": 6,
+        "name": "David Robinson",
+        "value": 2954,
+        "active": false,
+        "slug": "david-robinson"
+      },
+      {
+        "rank": 7,
+        "name": "Patrick Ewing",
+        "value": 2894,
+        "active": false,
+        "slug": "patrick-ewing"
+      },
+      {
+        "rank": 8,
+        "name": "Shaquille O'Neal",
+        "value": 2732,
+        "active": false,
+        "slug": "shaquille-oneal"
+      },
+      {
+        "rank": 9,
+        "name": "Tree Rollins",
+        "value": 2542,
+        "active": false,
+        "slug": null
+      },
+      {
+        "rank": 10,
+        "name": "Robert Parish",
+        "value": 2361,
+        "active": false,
+        "slug": "robert-parish"
+      }
+    ]
+  },
+  {
+    "key": "fg3m",
+    "label": "Three-pointers made",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "Stephen Curry",
+        "value": 4248,
+        "active": true,
+        "slug": "stephen-curry"
+      },
+      {
+        "rank": 2,
+        "name": "James Harden",
+        "value": 3390,
+        "active": true,
+        "slug": "james-harden"
+      },
+      {
+        "rank": 3,
+        "name": "Ray Allen",
+        "value": 2973,
+        "active": false,
+        "slug": "ray-allen"
+      },
+      {
+        "rank": 4,
+        "name": "Klay Thompson",
+        "value": 2899,
+        "active": true,
+        "slug": "klay-thompson"
+      },
+      {
+        "rank": 5,
+        "name": "Damian Lillard",
+        "value": 2804,
+        "active": true,
+        "slug": "damian-lillard"
+      },
+      {
+        "rank": 6,
+        "name": "LeBron James",
+        "value": 2636,
+        "active": true,
+        "slug": "lebron-james"
+      },
+      {
+        "rank": 7,
+        "name": "Reggie Miller",
+        "value": 2560,
+        "active": false,
+        "slug": "reggie-miller"
+      },
+      {
+        "rank": 8,
+        "name": "Kyle Korver",
+        "value": 2450,
+        "active": false,
+        "slug": null
+      },
+      {
+        "rank": 9,
+        "name": "Paul George",
+        "value": 2449,
+        "active": true,
+        "slug": "paul-george"
+      },
+      {
+        "rank": 10,
+        "name": "Kevin Durant",
+        "value": 2377,
+        "active": true,
+        "slug": "kevin-durant"
+      }
+    ]
+  },
+  {
+    "key": "gp",
+    "label": "Games played",
+    "rows": [
+      {
+        "rank": 1,
+        "name": "LeBron James",
+        "value": 1622,
+        "active": true,
+        "slug": "lebron-james"
+      },
+      {
+        "rank": 2,
+        "name": "Robert Parish",
+        "value": 1611,
+        "active": false,
+        "slug": "robert-parish"
+      },
+      {
+        "rank": 3,
+        "name": "Kareem Abdul-Jabbar",
+        "value": 1560,
+        "active": false,
+        "slug": "kareem-abdul-jabbar"
+      },
+      {
+        "rank": 4,
+        "name": "Vince Carter",
+        "value": 1541,
+        "active": false,
+        "slug": "vince-carter"
+      },
+      {
+        "rank": 5,
+        "name": "Dirk Nowitzki",
+        "value": 1522,
+        "active": false,
+        "slug": "dirk-nowitzki"
+      },
+      {
+        "rank": 6,
+        "name": "John Stockton",
+        "value": 1504,
+        "active": false,
+        "slug": "john-stockton"
+      },
+      {
+        "rank": 7,
+        "name": "Karl Malone",
+        "value": 1476,
+        "active": false,
+        "slug": "karl-malone"
+      },
+      {
+        "rank": 8,
+        "name": "Kevin Garnett",
+        "value": 1462,
+        "active": false,
+        "slug": "kevin-garnett"
+      },
+      {
+        "rank": 9,
+        "name": "Kevin Willis",
+        "value": 1424,
+        "active": false,
+        "slug": null
+      },
+      {
+        "rank": 10,
+        "name": "Jason Terry",
+        "value": 1410,
+        "active": false,
+        "slug": null
+      }
+    ]
+  }
+]

@@ -52,6 +52,7 @@ type RowDef = {
 }
 const careerRows: RowDef[] = [
   { label: 'Points', get: (s) => s.career?.ppg },
+  { label: 'Playoff points', get: (s) => s.playoffCareer?.ppg },
   { label: 'Rebounds', get: (s) => s.career?.rpg },
   { label: 'Assists', get: (s) => s.career?.apg },
   { label: 'Steals', get: (s) => s.career?.stl },
@@ -98,7 +99,11 @@ async function share() {
   setTimeout(() => (copied.value = false), 2000)
 }
 
-useSeoMeta({ title: 'Compare players — TOP 100' })
+useSeoMeta({
+  title: 'Compare players — TOP 100',
+  description:
+    'Head-to-head: pick any two of the 100 greatest NBA players and compare careers, stats, and accolades.',
+})
 </script>
 
 <template>
