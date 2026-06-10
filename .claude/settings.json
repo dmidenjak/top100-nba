@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node -e \"const a=require\\('./data/stats.json'\\)['adrian-dantley'].awards; console.log\\(JSON.stringify\\(a,null,2\\)\\);\")",
+      "Bash(node -e ' *)",
+      "PowerShell(python -c \"import sys; sys.stdout.reconfigure\\(encoding='utf-8'\\); from nba_api.stats.endpoints import playerawards; rows=[r for r in playerawards.PlayerAwards\\(player_id=893, timeout=30\\).get_normalized_dict\\(\\)['PlayerAwards'] if r['DESCRIPTION']=='NBA Champion']; [print\\(repr\\(r.get\\('SEASON'\\)\\)\\) for r in rows]\")",
+      "PowerShell(python scripts/sync_stats.py --force)",
+      "Bash(node -e \"const p=require\\('./data/stats.json'\\)['larry-bird']; console.log\\('snapshot rows:', p.seasonStats.length\\); console.log\\('first:', JSON.stringify\\(p.seasonStats[0]\\)\\); console.log\\('career:', JSON.stringify\\(p.seasonStats.find\\(r=>r.season==='Career'\\)\\)\\); console.log\\('titles:', JSON.stringify\\(p.awards.titleSeasons\\)\\);\")",
+      "PowerShell(python scripts/sync_stats.py --limit 1 --force)",
+      "PowerShell(node -e \"const t=require\\('./data/stats.json'\\)['adrian-dantley'].teams; console.log\\(JSON.stringify\\(t,null,1\\)\\);\")"
+    ]
+  }
+}

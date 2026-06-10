@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-950 text-stone-200 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+    /* "Night game" backdrop: a warm orange arena spotlight from above, a faint
+       amber glow at the edge, and subtle vertical hardwood plank seams. */
+    background-image:
+      radial-gradient(60rem 40rem at 50% -10%, rgba(249, 115, 22, 0.13), transparent),
+      radial-gradient(50rem 40rem at 90% 10%, rgba(251, 191, 36, 0.07), transparent),
+      repeating-linear-gradient(
+        90deg,
+        transparent 0px,
+        transparent 118px,
+        rgba(255, 255, 255, 0.015) 118px,
+        rgba(255, 255, 255, 0.015) 120px
+      );
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  /* Basketball-leather gradient ring shared by every card (replaces the old
+     holographic ring). Gradient via @apply (core utilities); animation +
+     sizing via plain CSS. */
+  .holo-ring {
+    @apply bg-gradient-to-br from-amber-300 via-orange-500 to-red-700;
+    background-size: 200% 200%;
+    animation: shine 6s ease infinite;
+  }
+
+  /* Condensed, uppercase display headings. */
+  .heading {
+    @apply font-semibold uppercase tracking-wide;
+    font-family: 'Oswald', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Oswald', sans-serif;
+  }
+}
+
+@keyframes shine {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
