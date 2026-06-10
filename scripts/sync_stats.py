@@ -117,14 +117,19 @@ def _row(season: str, r: dict) -> dict:
     }
 
 
-def per_game_rows(career: dict) -> list[dict]:
+def per_game_rows(
+    career: dict,
+    season_table: str = "SeasonTotalsRegularSeason",
+    career_table: str = "CareerTotalsRegularSeason",
+) -> list[dict]:
     """Map nba_api PerGame rows into our {season, gp, ppg, rpg, apg} shape.
+    Works for both the regular-season and the postseason tables.
 
     When a player was traded mid-season the API returns one row per team plus a
     combined 'TOT' row; we keep only the combined row so each season appears once.
     """
     by_season: dict[str, list[dict]] = {}
-    for r in career.get("SeasonTotalsRegularSeason", []):
+    for r in career.get(season_table, []):
         by_season.setdefault(r["SEASON_ID"], []).append(r)
 
     rows = []
@@ -132,7 +137,7 @@ def per_game_rows(career: dict) -> list[dict]:
         chosen = next((g for g in group if g.get("TEAM_ABBREVIATION") == "TOT"), group[-1])
         rows.append(_row(season_id, chosen))
 
-    for r in career.get("CareerTotalsRegularSeason", []):
+    for r in career.get(career_table, []):
         rows.append(_row("Career", r))
     return rows
 
@@ -276,11 +281,17 @@ def main():
                 "height": info.get("HEIGHT") or None,
                 "weight": info.get("WEIGHT") or None,
                 "college": info.get("SCHOOL") or None,
+                "number": (info.get("JERSEY") or "").strip() or None,
                 "draft_year": info.get("DRAFT_YEAR") or None,
+                "draftRound": (str(info.get("DRAFT_ROUND") or "")).strip() or None,
+                "draftPick": (str(info.get("DRAFT_NUMBER") or "")).strip() or None,
                 "team": team or None,
                 "awards": aggregate_awards(award_rows),
                 "teams": teams_played(career),
                 "seasonStats": per_game_rows(career),
+                "playoffStats": per_game_rows(
+                    career, "SeasonTotalsPostSeason", "CareerTotalsPostSeason"
+                ),
             }
             updated += 1
             a = snapshot[slug]["awards"]

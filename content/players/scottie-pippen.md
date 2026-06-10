@@ -4,12 +4,10 @@ name: "Scottie Pippen"
 slug: scottie-pippen
 image: "/images/scottie-pippen.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Pip"
 team:
 number:
 position:
-# Add a balldontlie player ID to load live metadata (see larry-bird.md).
-balldontlieId:
 # Uncomment + fill to show the STATS box:
 # seasonStats:
 #   - { season: 'Career', gp: 0, ppg: 0, rpg: 0, apg: 0 }

@@ -12,6 +12,8 @@ export default defineEventHandler(async () => {
     const out: Record<string, any> = {}
     for (const [slug, e] of Object.entries(snapshot)) {
       const career = (e.seasonStats ?? []).find((r: any) => /career/i.test(r.season)) ?? null
+      const playoffCareer =
+        (e.playoffStats ?? []).find((r: any) => /career/i.test(r.season)) ?? null
       const startYears = (e.seasonStats ?? [])
         .filter((r: any) => !/career/i.test(r.season))
         .map((r: any) => parseInt(r.season))
@@ -20,6 +22,7 @@ export default defineEventHandler(async () => {
 
       out[slug] = {
         career,
+        playoffCareer,
         awards: {
           championships: aw.championships ?? 0,
           mvp: aw.mvp ?? 0,

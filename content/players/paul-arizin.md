@@ -4,12 +4,10 @@ name: "Paul Arizin"
 slug: paul-arizin
 image: "/images/paul-arizin.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "Pitchin' Paul"
 team:
 number:
 position:
-# Add a balldontlie player ID to load live metadata (see larry-bird.md).
-balldontlieId:
 # Uncomment + fill to show the STATS box:
 # seasonStats:
 #   - { season: 'Career', gp: 0, ppg: 0, rpg: 0, apg: 0 }

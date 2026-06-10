@@ -4,12 +4,10 @@ name: "Paul Pierce"
 slug: paul-pierce
 image: "/images/paul-pierce.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "The Truth"
 team:
 number:
 position:
-# Add a balldontlie player ID to load live metadata (see larry-bird.md).
-balldontlieId:
 # Uncomment + fill to show the STATS box:
 # seasonStats:
 #   - { season: 'Career', gp: 0, ppg: 0, rpg: 0, apg: 0 }

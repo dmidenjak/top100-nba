@@ -19,6 +19,18 @@ const { data: meta } = await useAsyncData(`meta-${slug}`, () =>
 // Display values: hand-authored frontmatter wins, then fall back to the snapshot.
 const team = computed(() => player.value?.team || meta.value?.team)
 const position = computed(() => player.value?.position || meta.value?.position)
+const number = computed(() => player.value?.number || meta.value?.number)
+
+// "1984 · Rd 1, Pick 3" — or just the year (or "Undrafted") when no numeric
+// pick data (undrafted players carry the string "Undrafted" in every field).
+const draftLine = computed(() => {
+  const m = meta.value
+  if (!m?.draft_year) return null
+  const numeric = /^\d+$/
+  return numeric.test(m.draftRound ?? '') && numeric.test(m.draftPick ?? '')
+    ? `${m.draft_year} · Rd ${m.draftRound}, Pick ${m.draftPick}`
+    : m.draft_year
+})
 
 // Season stats: prefer curated frontmatter rows, else the synced snapshot rows.
 const stats = computed(
@@ -75,6 +87,16 @@ function onKeydown(e: KeyboardEvent) {
 }
 onMounted(() => window.addEventListener('keydown', onKeydown))
 onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
+
+// SEO + link previews: sharing this page shows the player's portrait card.
+// @nuxt/content auto-derives `description` from the bio's first paragraph.
+useSeoMeta({
+  title: () => `${player.value?.name} — #${player.value?.rank} | TOP 100`,
+  description: () => player.value?.description,
+  ogTitle: () => `${player.value?.name} — #${player.value?.rank} of the TOP 100`,
+  ogDescription: () => player.value?.description,
+  ogImage: absUrl(player.value?.image),
+})
 </script>
 
 <template>
@@ -146,7 +168,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
                 <h1 class="heading text-3xl leading-none text-white">{{ player.name }}</h1>
                 <p class="mt-1 text-sm font-medium text-orange-300">
                   <span v-if="team">{{ team }}</span>
-                  <span v-if="player.number"> · #{{ player.number }}</span>
+                  <span v-if="number"> · #{{ number }}</span>
                   <span v-if="position"> · {{ position }}</span>
                 </p>
               </div>
@@ -190,6 +212,10 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         <section v-if="meta" class="rounded-2xl border border-white/10 bg-white/5 p-5">
           <h2 class="heading mb-3 text-sm text-stone-400">Profile</h2>
           <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3">
+            <div v-if="player.nickname">
+              <dt class="text-stone-500">Nickname</dt>
+              <dd class="font-medium text-stone-100">“{{ player.nickname }}”</dd>
+            </div>
             <div v-if="position">
               <dt class="text-stone-500">Position</dt>
               <dd class="font-medium text-stone-100">{{ position }}</dd>
@@ -206,9 +232,9 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
               <dt class="text-stone-500">College</dt>
               <dd class="font-medium text-stone-100">{{ meta.college }}</dd>
             </div>
-            <div v-if="meta.draft_year">
-              <dt class="text-stone-500">Draft year</dt>
-              <dd class="font-medium text-stone-100">{{ meta.draft_year }}</dd>
+            <div v-if="draftLine">
+              <dt class="text-stone-500">Draft</dt>
+              <dd class="font-medium text-stone-100">{{ draftLine }}</dd>
             </div>
           </dl>
         </section>

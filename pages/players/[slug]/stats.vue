@@ -15,7 +15,25 @@ const { data: meta } = await useAsyncData(`meta-${slug}`, () =>
   $fetch(`/api/stats/${slug}`)
 )
 
-const rows = computed(() => meta.value?.seasonStats ?? [])
+// Regular season vs playoffs toggle. The playoff option only appears when the
+// player actually has postseason rows.
+const mode = ref<'regular' | 'playoffs'>('regular')
+const hasPlayoffs = computed(() => (meta.value?.playoffStats?.length ?? 0) > 0)
+const rows = computed(() =>
+  mode.value === 'playoffs' ? meta.value?.playoffStats ?? [] : meta.value?.seasonStats ?? []
+)
+
+function modeClass(active: boolean) {
+  return active ? 'bg-orange-500 text-stone-950' : 'text-stone-300 hover:text-white'
+}
+
+useSeoMeta({
+  title: () => `${player.value?.name} — Advanced stats | TOP 100`,
+  description: () =>
+    `Season-by-season shooting and per-game numbers for ${player.value?.name}.`,
+  ogTitle: () => `${player.value?.name} — Advanced stats`,
+  ogImage: absUrl(player.value?.image),
+})
 
 const shootingCols = [
   { key: 'gp', label: 'GP' },
@@ -74,6 +92,28 @@ const perGameCols = [
         <h1 class="heading text-3xl text-white">{{ player.name }}</h1>
       </div>
     </header>
+
+    <!-- Regular season / playoffs toggle -->
+    <div v-if="hasPlayoffs" class="mb-6 flex justify-center">
+      <div class="inline-flex rounded-full border border-white/15 p-1">
+        <button
+          type="button"
+          class="rounded-full px-5 py-1.5 text-sm font-medium transition"
+          :class="modeClass(mode === 'regular')"
+          @click="mode = 'regular'"
+        >
+          Regular season
+        </button>
+        <button
+          type="button"
+          class="rounded-full px-5 py-1.5 text-sm font-medium transition"
+          :class="modeClass(mode === 'playoffs')"
+          @click="mode = 'playoffs'"
+        >
+          Playoffs
+        </button>
+      </div>
+    </div>
 
     <div class="space-y-8">
       <AdvancedStatsTable

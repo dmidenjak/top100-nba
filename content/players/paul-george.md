@@ -4,12 +4,10 @@ name: "Paul George"
 slug: paul-george
 image: "/images/paul-george.jpg"
 # Optional — fill these in to enrich the page:
-nickname:
+nickname: "PG-13"
 team:
 number:
 position:
-# Add a balldontlie player ID to load live metadata (see larry-bird.md).
-balldontlieId:
 # Uncomment + fill to show the STATS box:
 # seasonStats:
 #   - { season: 'Career', gp: 0, ppg: 0, rpg: 0, apg: 0 }

@@ -12,7 +12,10 @@
     "images": "node scripts/download-images.mjs",
     "rank": "node scripts/set-ranks.mjs",
     "logos": "node scripts/download-logos.mjs",
-    "sync": "python scripts/sync_stats.py"
+    "teams": "node scripts/generate-teams.mjs",
+    "sync": "python scripts/sync_stats.py",
+    "sync:teams": "python scripts/sync_teams.py",
+    "sync:records": "python scripts/sync_records.py"
   },
   "devDependencies": {
     "@nuxt/content": "^2.13.4",
